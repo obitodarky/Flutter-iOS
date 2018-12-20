@@ -7,7 +7,12 @@ class FirstApp extends StatelessWidget{
     @override
       Widget build(BuildContext context) {
         
-        return new Text("Hello");
+        return new MaterialApp(
+          title: "First Title",
+          home: new Text("Hello"),
+
+        );
+        
       }
 
 }
