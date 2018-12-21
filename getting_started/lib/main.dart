@@ -32,7 +32,7 @@ class Body extends StatelessWidget{
       // TODO: implement build
       return new Center(
 
-        child:new Text("Centered Text")
+        child:new Text("Centered Text",style: new TextStyle(fontFamily: "Times New Roman",fontSize: 20),)
       );
       
     }
