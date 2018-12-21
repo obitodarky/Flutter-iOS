@@ -30,6 +30,10 @@ class Body extends StatelessWidget{
   @override
     Widget build(BuildContext context) {
       // TODO: implement build
-      return new Text("Body data");
+      return new Center(
+
+        child:new Text("Centered Text")
+      );
+      
     }
 }
