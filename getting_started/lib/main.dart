@@ -30,9 +30,19 @@ class Body extends StatelessWidget{
   @override
     Widget build(BuildContext context) {
       // TODO: implement build
-      return new Center(
+      
+      return new ListView.builder(
 
-        child:new Text("Centered Text",style: new TextStyle(fontFamily: "Times New Roman",fontSize: 20),)
+        itemCount: 10,
+        itemBuilder: (context, rowNumber){
+
+           return new Center(
+
+             child: new Text("Centered List", style: new TextStyle(fontSize: 25),),
+           ); 
+
+        },
+
       );
       
     }
