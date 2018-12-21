@@ -15,13 +15,21 @@ class FirstApp extends StatelessWidget{
               title: new Text("Title"),
             ),
 
-            body: Center(
-              child: new Text("Center Text"),
-            ),
+            body: Body(),
+            
           ),
 
         );
         
       }
 
+}
+
+class Body extends StatelessWidget{
+
+  @override
+    Widget build(BuildContext context) {
+      // TODO: implement build
+      return new Text("Body data");
+    }
 }
