@@ -33,7 +33,7 @@ class Body extends StatelessWidget{
       
       return new ListView.builder(
 
-        itemCount: 10,
+        itemCount: 40,
         itemBuilder: (context, rowNumber){
 
            return new Center(
