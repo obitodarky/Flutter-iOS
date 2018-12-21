@@ -9,7 +9,16 @@ class FirstApp extends StatelessWidget{
         
         return new MaterialApp(
           title: "First Title",
-          home: new Text("Hello"),
+          home: new Scaffold(
+
+            appBar: new AppBar(
+              title: new Text("Title"),
+            ),
+
+            body: Center(
+              child: new Text("Center Text"),
+            ),
+          ),
 
         );
         
