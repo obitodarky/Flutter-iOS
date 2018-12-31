@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:english_words/english_words.dart';
+
 
 void main() => runApp(FirstApp());
 
@@ -33,12 +35,12 @@ class Body extends StatelessWidget{
       
       return new ListView.builder(
 
-        itemCount: 40,
+        itemCount: 10,
         itemBuilder: (context, rowNumber){
 
            return new Center(
 
-             child: new Text("Centered List", style: new TextStyle(fontSize: 25),),
+             child: new Text(WordPair.random().asCamelCase, style: new TextStyle(fontSize: 25),),
            ); 
 
         },
