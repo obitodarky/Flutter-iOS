@@ -42,7 +42,7 @@ class Body extends StatelessWidget{
 
              child: new Text(WordPair.random().asCamelCase, style: new TextStyle(fontSize: 25),),
            ); 
-
+        
         },
 
       );
