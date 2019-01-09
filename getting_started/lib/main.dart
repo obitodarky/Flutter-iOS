@@ -14,7 +14,7 @@ class FirstApp extends StatelessWidget{
           home: new Scaffold(
 
             appBar: new AppBar(
-              title: new Text("Title"),
+              title: new Text("Titl2"),
             ),
 
             body: Body(),
@@ -42,7 +42,7 @@ class Body extends StatelessWidget{
 
              child: new Text(WordPair.random().asCamelCase, style: new TextStyle(fontSize: 25),),
            ); 
-        
+
         },
 
       );
